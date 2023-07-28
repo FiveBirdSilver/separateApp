@@ -1,17 +1,19 @@
-import React from 'react';
+import React from "react";
 
 const App = () => {
   return (
-    <div
+    <button
       style={{
-        margin: '10px',
-        padding: '10px',
-        textAlign: 'center',
-        backgroundColor: 'lightgreen',
+        width: "600px",
+        backgroundColor: "transparent",
+        cursor: "pointer",
+        border: "3px solid pink",
+        fontSize: "30px",
+        fontWeight: "bold",
       }}
     >
-      <h1>Hello I'm App2</h1>
-    </div>
+      안녕하세요. 저는 App2 버튼 입니다!
+    </button>
   );
 };
 
